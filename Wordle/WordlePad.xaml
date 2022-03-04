@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="Wordle.WordlePad"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Wordle"
+             mc:Ignorable="d" Height="421" Width="322">
+    <Grid Margin="0,0,27,10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <local:WordleLine x:Name="line1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="79" Width="309" Margin="13,10,0,0" Grid.ColumnSpan="2"/>
+        <local:WordleLine x:Name="line2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="13,75,0,0" Height="79" Width="309" Grid.ColumnSpan="2"/>
+        <local:WordleLine x:Name="line3" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="13,207,0,0" RenderTransformOrigin="0.5,0.5" Height="79" Width="309" Grid.ColumnSpan="2"/>
+        <local:WordleLine x:Name="line4" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="13,141,0,0" Height="79" Width="309" Grid.ColumnSpan="2"/>
+        <local:WordleLine x:Name="line5" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="13,274,0,0" Height="79" Width="309" Grid.ColumnSpan="2"/>
+        <local:WordleLine x:Name="line6" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="13,339,0,0" Height="79" Width="309" Grid.ColumnSpan="2"/>
+    </Grid>
+</UserControl>

@@ -1,0 +1,43 @@
+﻿<Window x:Class="Wordle.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wordle"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="643" Width="350" ResizeMode="NoResize">
+    <Grid Margin="0,0,0,51">
+        <local:WordlePad x:Name="game" HorizontalAlignment="Left" Margin="21,12,0,0" VerticalAlignment="Top" Height="434" Width="331"/>
+        <Button x:Name="button" Content="Q" HorizontalAlignment="Left" Margin="11,437,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27"/>
+        <Button x:Name="button_Copy" Content="W" HorizontalAlignment="Left" Margin="43,437,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27"/>
+        <Button x:Name="button_Copy1" Content="E" HorizontalAlignment="Left" Margin="75,437,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27"/>
+        <Button x:Name="button_Copy2" Content="R" HorizontalAlignment="Left" Margin="107,437,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27"/>
+        <Button x:Name="button_Copy3" Content="T" HorizontalAlignment="Left" Margin="139,437,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27"/>
+        <Button x:Name="button_Copy4" Content="Y" HorizontalAlignment="Left" Margin="170,437,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27"/>
+        <Button x:Name="button_Copy5" Content="U" HorizontalAlignment="Left" Margin="203,437,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27"/>
+        <Button x:Name="button_Copy6" Content="I" HorizontalAlignment="Left" Margin="235,437,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27" RenderTransformOrigin="4.835,1.536"/>
+        <Button x:Name="button_Copy7" Content="I" HorizontalAlignment="Left" Margin="235,437,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27" RenderTransformOrigin="4.835,1.536"/>
+        <Button x:Name="button_Copy8" Content="A" HorizontalAlignment="Left" Margin="29,476,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27"/>
+        <Button x:Name="button_Copy9" Content="S" HorizontalAlignment="Left" Margin="61,476,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27"/>
+        <Button x:Name="button_Copy10" Content="D" HorizontalAlignment="Left" Margin="93,476,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27"/>
+        <Button x:Name="button_Copy11" Content="F" HorizontalAlignment="Left" Margin="125,476,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27"/>
+        <Button x:Name="button_Copy12" Content="G" HorizontalAlignment="Left" Margin="157,476,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27"/>
+        <Button x:Name="button_Copy13" Content="H" HorizontalAlignment="Left" Margin="188,476,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27"/>
+        <Button x:Name="button_Copy14" Content="J" HorizontalAlignment="Left" Margin="221,476,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27"/>
+        <Button x:Name="button_Copy15" Content="K" HorizontalAlignment="Left" Margin="253,476,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27" RenderTransformOrigin="4.835,1.536"/>
+        <Button x:Name="button_Copy16" Content="K" HorizontalAlignment="Left" Margin="253,476,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27" RenderTransformOrigin="4.835,1.536"/>
+        <Button x:Name="button_Copy17" Content="Z" HorizontalAlignment="Left" Margin="61,515,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27"/>
+        <Button x:Name="button_Copy18" Content="X" HorizontalAlignment="Left" Margin="93,515,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27"/>
+        <Button x:Name="button_Copy19" Content="C" HorizontalAlignment="Left" Margin="125,515,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27"/>
+        <Button x:Name="button_Copy20" Content="V" HorizontalAlignment="Left" Margin="157,515,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27"/>
+        <Button x:Name="button_Copy21" Content="B" HorizontalAlignment="Left" Margin="188,515,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27"/>
+        <Button x:Name="button_Copy22" Content="N" HorizontalAlignment="Left" Margin="221,515,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27"/>
+        <Button x:Name="button_Copy23" Content="M" HorizontalAlignment="Left" Margin="253,515,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27"/>
+        <Button x:Name="button_Copy26" Content="O" HorizontalAlignment="Left" Margin="269,437,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27"/>
+        <Button x:Name="button_Copy27" Content="P" HorizontalAlignment="Left" Margin="301,437,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27" RenderTransformOrigin="4.835,1.536"/>
+        <Button x:Name="button_Copy25" Content="L" HorizontalAlignment="Left" Margin="284,476,0,0" VerticalAlignment="Top" Click="button_Click" Height="28" Width="27" RenderTransformOrigin="4.835,1.536"/>
+        <Button x:Name="button1" Content="Enter" HorizontalAlignment="Left" Margin="284,519,0,0" VerticalAlignment="Top" Click="button1_Click" Width="48"/>
+        <Button x:Name="button1_Copy" Content="Back" HorizontalAlignment="Left" Margin="6,521,0,0" VerticalAlignment="Top" Click="button1_Copy_Click" Width="50"/>
+
+    </Grid>
+</Window>
